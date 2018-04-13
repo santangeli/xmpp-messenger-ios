@@ -27,7 +27,7 @@ s.requires_arc = true
 s.dependency 'FMDB'
 s.dependency 'JSQMessagesViewController'
 s.dependency 'JSQSystemSoundPlayer', '~> 2.0'
-s.dependency 'XMPPFramework'
+s.dependency 'XMPPFramework/Swift', :git => 'https://github.com/robbiehanson/XMPPFramework.git', :branch => 'master'
 
 s.ios.frameworks = 'Foundation', 'CoreData', 'UIKit', 'CFNetwork', 'Security', 'XMPPFramework'
 s.source_files = ['Pod/Classes/**/*.{swift}']
